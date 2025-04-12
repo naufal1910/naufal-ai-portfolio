@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { GitHub, Linkedin, Mail, MessageSquare, Phone, Send } from "lucide-react";
+import { Github, Linkedin, Mail, MessageSquare, Phone, Send } from "lucide-react";
 import { toast } from "sonner";
 
 const ContactItem = ({ 
@@ -104,7 +104,7 @@ const Contact = () => {
             />
             
             <ContactItem 
-              icon={GitHub} 
+              icon={Github} 
               title="GitHub" 
               value="github.com/naufal" 
               href="https://github.com/"
@@ -117,7 +117,7 @@ const Contact = () => {
                   href="https://github.com/" 
                   className="bg-light/10 hover:bg-teal/20 text-light hover:text-teal p-3 rounded-full transition-colors"
                 >
-                  <GitHub size={18} />
+                  <Github size={18} />
                 </a>
                 <a 
                   href="https://linkedin.com/" 
