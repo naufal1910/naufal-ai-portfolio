@@ -74,9 +74,9 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
       tags: ["AI", "Machine Learning", "Transfer Learning", "Healthcare"],
       links: [
-        { label: "Colab", url: "#", icon: ExternalLink },
-        { label: "Video", url: "#", icon: Play },
-        { label: "Research Paper", url: "#", icon: ExternalLink }
+        { label: "Colab", url: "https://colab.research.google.com/drive/17yRSNnh1DtWPr4BpdNxUpPgM1khCPBhG?usp=sharing", icon: ExternalLink },
+        { label: "Video", url: "https://youtu.be/4yEhACN2vVE", icon: Play },
+        { label: "Research Paper", url: "https://binusianorg-my.sharepoint.com/personal/naufal_nazaruddin_binus_ac_id/_layouts/15/guestaccess.aspx?share=Efo9BncW_DFGnYOFrEm0AnAB1051gmlMJz9Uyq1HCm-K-w&e=aRL8uS", icon: ExternalLink }
       ]
     },
     {
@@ -91,21 +91,17 @@ const Projects = () => {
     },
     {
       title: "Credit Card Management System",
-      description: "Designed and implemented modules for a comprehensive debit/credit card management system for financial institutions.",
+      description: "A full-stack development project for a comprehensive debit and credit card management system, built for financial institutions. Responsible for the end-to-end lifecycle, from requirement gathering to deployment.",
       image: "https://images.unsplash.com/photo-1561414926-7f3f921a2e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
       tags: ["Java", "Spring Framework", "SQL", "Financial Tech"],
-      links: [
-        { label: "Case Study", url: "#", icon: ExternalLink }
-      ]
+      links: []
     },
     {
       title: "Data Entry Automation Tool",
       description: "Built a desktop application with VB6 to automate and streamline manual data entry processes for increased efficiency.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
       tags: ["VB6", "Desktop App", "Automation", "Efficiency"],
-      links: [
-        { label: "Demo", url: "#", icon: ExternalLink }
-      ]
+      links: []
     }
   ];
 

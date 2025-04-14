@@ -25,7 +25,7 @@ const About = () => {
             </p>
             
             <Button className="bg-teal hover:bg-teal/90 text-dark" asChild>
-              <a href="#" download="naufal_resume.pdf">
+              <a href="https://binusianorg-my.sharepoint.com/personal/naufal_nazaruddin_binus_ac_id/_layouts/15/guestaccess.aspx?share=EVVRvANa6t9CkvYv7B74awIBB8uPOub-xpFJIME56ivFtw&e=osBcOv" download="Naufal_Nazaruddin_CV_ATS.pdf">
                 <FileText className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
@@ -45,9 +45,9 @@ const About = () => {
               <div className="pl-9">
                 <p className="text-sm text-light/60 mb-2">Additional certifications:</p>
                 <ul className="space-y-1 text-light/80">
-                  <li>• Java Professional Certification</li>
-                  <li>• Spring Framework Specialist</li>
-                  <li>• Introduction to AI & Machine Learning (Coursera)</li>
+                  <li>• Data Science A-Z (Udemy)</li>
+                  <li>• Certified Associate in Project Management (KnowledgeHut)</li>
+                  <li>• Korean Class (Advanced), Incheon Support Center for Foreign Workers</li>
                 </ul>
               </div>
             </div>
@@ -61,7 +61,7 @@ const About = () => {
                     <div>
                       <div className="flex justify-between mb-1">
                         <span>English</span>
-                        <span className="text-teal">Fluent</span>
+                        <span className="text-teal">Conversational</span>
                       </div>
                       <div className="w-full bg-light/10 rounded-full h-1.5">
                         <div className="bg-teal h-1.5 rounded-full" style={{ width: "90%" }}></div>

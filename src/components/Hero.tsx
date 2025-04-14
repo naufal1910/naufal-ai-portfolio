@@ -20,14 +20,14 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80"
-                  alt="Placeholder - Replace with Naufal's photo"
-                  className="w-full h-full object-cover"
+                  src="/images/profile-photo.jpg"
+                  alt="profile photo"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-dark p-3 rounded-full border-2 border-teal shadow-lg">
                 <div className="w-16 h-16 rounded-full bg-teal/20 flex items-center justify-center">
-                  <span className="text-teal font-bold text-sm">AI</span>
+                  <span className="text-teal font-bold text-sm">NN</span>
                 </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Hero = () => {
               Full-Stack Developer, Software Analyst, and aspiring AI Engineer
             </div>
             <p className="text-base md:text-lg mb-8 text-light/80 max-w-lg mx-auto md:mx-0">
-              Dedicated to crafting impactful, data-driven solutions and bringing over 5 years of 
+              Dedicated to crafting impactful, data-driven solutions and bringing over 5   years of 
               experience developing robust systems for financial technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

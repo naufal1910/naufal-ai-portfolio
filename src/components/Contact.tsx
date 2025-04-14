@@ -85,29 +85,29 @@ const Contact = () => {
             <ContactItem 
               icon={Mail} 
               title="Email" 
-              value="naufal@example.com" 
-              href="mailto:naufal@example.com"
+              value="naufal.izar@gmail.com" 
+              href="mailto:naufal.izar@gmail.com"
             />
             
-            <ContactItem 
+            {/* <ContactItem 
               icon={Phone} 
               title="Phone" 
               value="+123 456 7890" 
               href="tel:+1234567890"
-            />
+            /> */}
             
             <ContactItem 
               icon={Linkedin} 
               title="LinkedIn" 
-              value="linkedin.com/in/naufal" 
-              href="https://linkedin.com/in/"
+              value="linkedin.com/in/naufal-nazaruddin" 
+              href="https://www.linkedin.com/in/naufal-nazaruddin/"
             />
             
             <ContactItem 
               icon={Github} 
               title="GitHub" 
-              value="github.com/naufal" 
-              href="https://github.com/"
+              value="github.com/naufal1910" 
+              href="https://github.com/naufal1910"
             />
             
             <div className="mt-8">
@@ -145,7 +145,7 @@ const Contact = () => {
                   <Input
                     id="name"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Naufal Nazaruddin"
                     required
                     value={formData.name}
                     onChange={handleChange}
@@ -161,7 +161,7 @@ const Contact = () => {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="naufal.izar@gmail.com"
                     required
                     value={formData.email}
                     onChange={handleChange}

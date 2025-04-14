@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold font-montserrat">
-          <span className="text-teal">Naufal</span>
+          <span className="text-teal">Naufal Nazaruddin</span>
           <span className="text-light">.</span>
         </div>
 
