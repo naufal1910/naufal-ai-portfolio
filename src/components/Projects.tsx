@@ -70,7 +70,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Brain Tumor Diagnosis",
-      description: "Leveraged transfer learning techniques to detect and classify brain tumors from MRI scans, improving diagnostic efficiency and accuracy.",
+      description: "This project is part of my master's thesis, developed to fulfill the graduation requirement of the Master of Information System Management program at BINUS University. It applies transfer learning to detect and classify brain tumors from MRI scans, achieving up to 99% accuracy with the Xception model and incorporates Grad-CAM for model interpretability. The research was presented at the International Conference on Data Engineering and Enterprise System (ICDEES 2024) and is scheduled for publication with Springer.",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
       tags: ["AI", "Machine Learning", "Transfer Learning", "Healthcare"],
       links: [
