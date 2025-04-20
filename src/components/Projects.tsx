@@ -80,13 +80,13 @@ const Projects = () => {
       ]
     },
     {
-      title: "Career Agent Advisor",
-      description: "Developed an AI-driven advisor to guide users in exploring career pathways by analyzing skills, job market data, and individual preferences.",
+      title: "Carrfella - Career Agent Advisor",
+      description: "Carrfella is Career Agent Advisor that helps job-seekers instantly evaluate and enhance their resume for any job description.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
       tags: ["AI", "Natural Language Processing", "Career Development"],
       links: [
-        { label: "GitHub", url: "#", icon: Github },
-        { label: "Video Demo", url: "#", icon: Play }
+        { label: "GitHub", url: "https://github.com/naufal1910/carrfella_prototype", icon: Github },
+        { label: "Video Demo", url: "https://youtu.be/X0qFlVjtYT0", icon: Play }
       ]
     },
     {
